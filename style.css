@@ -78,7 +78,7 @@ button {
 }
 
 #information {
-    height: 65vh;
+    min-height: 65vh;
     justify-content: flex-start;
     align-items: center;
     display: flex;
@@ -109,4 +109,27 @@ button {
     height: 10vw;
     border: 4px solid #3882F6;
     border-radius: 10px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 0 20%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+#quote p {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+    margin: 0;
 }

@@ -4,10 +4,13 @@ body {
 
 header {
     width: 100vw;
-    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+header .logo, #hero .left h1, button{
+    color: #F9FAF8;
 }
 
 header .logo {
@@ -21,8 +24,55 @@ header ul {
     gap: 32px;
 }
 
+header a, #hero .left p, #hero .right{
+    color: #E5E7EB;
+}
+
 header a {
     font-size: 18px;
-    color: #E5E7EB;
     text-decoration: none;
+}
+
+header, #hero {
+    background-color: #1F2937;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero .left {
+    width: 35vw;
+}
+
+#hero .left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+#hero .left p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#hero .right {
+    background-color: #73737a;
+    height: 33vh;
+    text-align: center;
+    width: 35vw;
+    line-height: 33vh;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 32px;
 }

@@ -24,7 +24,7 @@ header ul {
     gap: 32px;
 }
 
-header a, #hero .left p, #hero .right{
+header a, #hero .left p, #hero .right, footer{
     color: #E5E7EB;
 }
 
@@ -33,7 +33,7 @@ header a {
     text-decoration: none;
 }
 
-header, #hero {
+header, #hero, footer {
     background-color: #1F2937;
 }
 
@@ -162,4 +162,10 @@ button {
 
 #call p {
     margin-top: 8px;
+}
+
+footer {
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
 }

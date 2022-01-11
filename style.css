@@ -133,3 +133,33 @@ button {
     font-weight: bold;
     margin: 0;
 }
+
+#call {
+    height: 50vh;
+    display: flex;
+    color: #F9FAF8;
+}
+
+#call .modal {
+    background-color: #3882F6;
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 7% 12%;
+    min-height: 100px;
+}
+
+#call .modal button {
+    border: 4px solid #F9FAF8;
+}
+
+#call h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+#call p {
+    margin-top: 8px;
+}
